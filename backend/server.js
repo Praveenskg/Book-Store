@@ -25,6 +25,6 @@ mongoose
 // routes
 const booksRoute = require("./routes/books");
 app.use("/api/books", booksRoute);
-  app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-  });
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
